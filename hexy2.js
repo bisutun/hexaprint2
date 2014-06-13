@@ -4,9 +4,9 @@ function printMultiples(c, b, a) {
     b = parseInt(document.getElementById("bound").value);
     c = parseInt(document.getElementById("start").value);
     if ( c >= b ) {
-			document.getElementById("enumerated").innerHTML = ("Not a valid range.");
+			document.getElementById("enumerated").innerHTML = ("That's not how ranges work!");
 	} else if ( (b - c) / a > 200 ) {
-			document.getElementById("enumerated").innerHTML = ("That'll take too long.");
+			document.getElementById("enumerated").innerHTML = ("I'd rather not.");
 		} else { 
 			for ( var i = c; i <= b; i++ ) {
 			  if ( i % a === 0 ) {
