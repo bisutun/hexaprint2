@@ -1,0 +1,72 @@
+/* TODO
+This needs OO-ifying real bad.
+*/
+
+.text {
+	text-align: center;
+}
+
+#enumerated{
+	font-family: monospace;
+}
+
+body {
+	background-color: #F0EFEF;
+}
+
+h1 {
+	color: #4d4141;
+	font-size: 100px;
+	font-family: 'Oleo Script', cursive;
+	font-weight: 700;
+	line-height: 75%;
+}
+
+.p {
+	color: #4d4141;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 120%;
+}
+
+.bright {
+	background-color: #F0EFEF;
+	color: #eb462a; /*Hi, Hackbright color!*/
+	border: 0px solid;
+}
+
+.button{
+	background-color:#4d4141;
+	color:#F0EFEF;
+	font-family:'Oleo Script', serif;
+	font-size:30px;
+	font-weight:400;
+	float: right;
+	height:60px;
+	width:200px;
+	text-align:center;
+	border-radius: 5px;
+	border: none;
+	line-height: 200%;
+	display: inline;
+	margin-right: 300px;
+
+}.button:hover {
+	background-color:#eb462a; /*Hi, Hackbright color!*/
+}
+
+#form {
+	width: 250px;
+	display: inline;
+	float: left;
+	text-align: left;
+	margin-left: 300px;
+}
+#footer {
+	text-align: right;
+	position: relative;
+	float:bottom;
+	margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
